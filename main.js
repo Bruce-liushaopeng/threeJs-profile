@@ -65,6 +65,13 @@ function animate() {
   torus.rotation.x += 0.01
   torus.rotation.y += 0.005
   torus.rotation.z += 0.01
+  
+  moon.rotation.x += 0.05;
+  moon.rotation.y += 0.075;
+  moon.rotation.z += 0.05;
+
+  bruce.rotation.y += 0.01;
+  bruce.rotation.z += 0.01;
 
   // bruce.rotation.y += 0.01
   // bruce.rotation.x += 0.003
