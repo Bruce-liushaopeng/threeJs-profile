@@ -100,9 +100,9 @@ function moveCamera() {
   torus.rotation.y += 0.008
   torus.rotation.z += 0.02
 
-  camera.position.z = t * -0.08;
+  camera.position.z = t * -0.04;
   camera.position.x = t * -0.01;
-  camera.position.y = t * -0.01;
+  camera.position.y = t * -0.001;
 }
 document.body.onscroll = moveCamera
 Array(200).fill().forEach(addStar)
